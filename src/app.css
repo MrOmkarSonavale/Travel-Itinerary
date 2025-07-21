@@ -1,0 +1,83 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fbf4ff;
+  color: #321e5d;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(84, 28, 156, 0.1);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #541c9c;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+select {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus,
+select:focus {
+  border-color: #680099;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: #541c9c;
+}
+
+button {
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #541c9c; /* CTA button */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #680099; /* Hover effect */
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,12 @@
+.activity-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.activity-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

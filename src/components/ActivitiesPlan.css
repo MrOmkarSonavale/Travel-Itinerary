@@ -1,0 +1,70 @@
+.activities-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fbf4ff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(84, 28, 156, 0.15);
+  color: #321e5d;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.activities-container h2 {
+  text-align: center;
+  color: #541c9c;
+  margin-bottom: 2rem;
+}
+
+.activities-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.day-card {
+  background-color: white;
+  border-left: 6px solid #936fe0;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+}
+
+.day-card h3 {
+  color: #541c9c;
+}
+
+.day-card label {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.day-card input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.2rem;
+  border: 2px solid #936fe0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.day-card input:focus {
+  border-color: #680099;
+}
+
+.submit-btn {
+  padding: 0.9rem;
+  background-color: #541c9c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+}
+
+.submit-btn:hover {
+  background-color: #680099;
+}
