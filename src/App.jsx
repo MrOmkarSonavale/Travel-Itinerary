@@ -4,7 +4,7 @@ import VigoviaLogo from "./components/VigovioLogo.jsx";
 import { Routes, Route } from "react-router-dom";
 import "./index.css"; // Assuming you have a CSS file for global styles
 import WelcomeScreen from "./components/WelcomeScreen.jsx";
-import ActivitiesPlan from "./components/ActivitiesPLan.jsx";
+import ActivitiesPlan from "./components/ActivitiesPlan.jsx";
 import HotelDetails from "./components/HotelDetails.jsx";
 import Flights from "./components/Flights.jsx";
 import ActivityForm from "./components/ActivityForm.jsx";
