@@ -1,5 +1,5 @@
 Wesite url : - https://travel-itinerary-sj4w.vercel.app/
-for genrated pdf check;- public/Travel-Itinerary.pdf
+
 a) HTML - 4
 b) CSS  - 4
 c) JavaScript - 4
